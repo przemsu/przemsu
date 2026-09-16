@@ -21,11 +21,9 @@ Every system I ship is idempotent, config-driven, and observable. I make archite
 
 **[NBP API Data Pipeline](https://github.com/przemsu/nbp_api)**
 
-End-to-end pipeline collecting FX rates (Tables A, B, C) and gold prices from the National Bank of Poland.
-Runs daily via GitHub Actions with automatic backfill for any missed dates.
-Data flows through a persistent DuckDB store into clean, query-ready analytical views.
+End-to-end pipeline collecting FX rates (Tables A, B, C) and gold prices from the National Bank of Poland — raw JSON from the API all the way through to clean, structured analytical views in DuckDB. Runs daily via GitHub Actions with automatic backfill for any missed dates. Designed to be self-healing, schema-driven, and easy to extend.
 
-`Python 3.12` · `DuckDB` · `SQL Views` · `GitHub Actions` · `Medallion Architecture`
+`Python 3.12` · `DuckDB` · `SQL` · `GitHub Actions` · `Medallion Architecture`
 
 ---
 
