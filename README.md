@@ -1,22 +1,31 @@
-# Przemek Suchan
+# Przemek Suchan — Data Engineer
 
-Data engineer. I build ETL pipelines, mostly in Python, mostly around financial data.
+I design and build **production-grade data pipelines** — from raw API ingestion to clean analytical layers, automated and self-healing.
 
-Currently working through a **Medallion Architecture** pipeline on top of DuckDB — Bronze, Silver done, Gold layer in progress.
-
----
-
-**Stack I reach for:**
-Python · DuckDB · SQL · GitHub Actions
-
-**Things I care about when writing code:**
-idempotency, clear structure, not having to babysit it in production
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
 ---
 
-### Featured
+### What I build
 
-**[NBP API Data Pipeline](https://github.com/przemsu/nbp_api)** — automated pipeline pulling FX rates and gold prices from the National Bank of Poland. Daily runs, backfill logic, structured views.
+Automated ETL pipelines with **Medallion Architecture** (Bronze → Silver → Gold) — robust enough to run unattended, structured enough to extend.
+
+Every system I ship is idempotent, config-driven, and observable. I make architectural decisions consciously and document the reasoning, not just the implementation.
+
+---
+
+### Featured project
+
+**[NBP API Data Pipeline](https://github.com/przemsu/nbp_api)**
+
+End-to-end pipeline collecting FX rates (Tables A, B, C) and gold prices from the National Bank of Poland.
+Runs daily via GitHub Actions with automatic backfill for any missed dates.
+Data flows through a persistent DuckDB store into clean, query-ready analytical views.
+
+`Python 3.12` · `DuckDB` · `SQL Views` · `GitHub Actions` · `Medallion Architecture`
 
 ---
 
