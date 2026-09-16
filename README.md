@@ -2,10 +2,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2088FF,100:3776AB&height=200&section=header&text=Przemek%20Suchan&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Engineer&descAlignY=58&descSize=22" width="100%"/>
 
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2800&pause=1200&color=2088FF&center=true&vCenter=true&width=520&lines=ETL+Pipelines+%7C+Medallion+Architecture;Bronze+%E2%86%92+Silver+%E2%86%92+Gold+%7C+DuckDB;Automated%2C+Idempotent%2C+Self-Healing;Python+%7C+SQL+%7C+GitHub+Actions" alt="Typing animation" />
-
 </div>
 
 ---
